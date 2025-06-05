@@ -1,0 +1,67 @@
+\documentclass[12pt, a4paper]{article}
+\usepackage[margin=1in]{geometry}
+\usepackage{graphicx}
+\usepackage{tikz}
+\usetikzlibrary{calc}
+\begin{document}
+	\begin{titlepage}
+		\begin{tikzpicture}[overlay, remember picture]
+			\draw[line width=4pt]
+			($ (current page.north west) + (1cm,-1cm) $)
+			rectangle
+			($ (current page.south east) + (-1cm,1cm) $);
+			\draw[line width=1.5pt]
+			($ (current page.north west) + (1.2cm,-1.2cm) $)
+			rectangle
+			($ (current page.south east) + (-1.2cm,1.2cm) $);
+		\end{tikzpicture} 
+		
+		\centering
+		\vspace*{0.5cm}
+		
+		\LARGE \textbf{Visvesvaraya Technological University} \\
+		\vspace{0.1cm}
+		\small \textbf{“Jnana Sangama”, Belagavi - 590018} \\
+		
+		\vspace{0.5cm}
+		\includegraphics[scale=0.25]{vtu}
+		
+		\vspace{0.5cm}
+		\LARGE \textbf{Project Report} \\
+		\vspace{0.3cm}
+		\Large \textbf{"Online Credit Card Fraud Detection"} \\
+		\vspace{0.3cm}
+		\small \textbf{Submitted in partial fulfillment for 4th Sem} \\
+		\LARGE \textbf{Bachelor of Engineering} \\
+		
+		\vspace{0.1cm}
+		\Large \textbf{in} \\
+		\LARGE \textbf{Department of CSE (AIML)} \\
+		
+		\vspace{0.3cm}
+		\large \textbf{Submitted By} \\
+		\vspace{0.2cm}
+		\Large \textbf{Sumanth K N} \\
+		\Large \textbf{1JS23C1090} \\
+		
+		\vspace{0.5cm}
+		\large \textbf{Under the guidance of} \\
+		\textbf{Sneha Y S} \\
+		\textbf{Assistant Professor} \\
+		\textbf{Department of CSE (AIML), JSSATEB} \\
+		
+		\vspace{0.5cm}
+		\includegraphics[scale=0.30]{jss}
+		
+		\vspace{0.5cm}
+		\small \textbf{Department of CSE (AIML), JSSATEB} \\
+		\small \textbf{JSS Academy of Technical Education} \\
+		\vspace{0.2cm}
+		\small \textbf{JSS Campus, Dr. Vishnuvardhan Road, Bengaluru - 560060} \\
+		\vspace{0.2cm}
+		\begin{minipage}{0.45\textwidth}
+			\centering
+			\small \textbf{2023 - 2024}
+		\end{minipage}
+	\end{titlepage}
+\end{document}
